@@ -1,0 +1,118 @@
+
+/* ------ Populares -------- */
+
+
+@media(max-width:768px) {
+  .header {
+      display: none;
+  }
+}
+
+/* ----- Login ------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Noticias ------*/
+
+
+.novedadesTitulo {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+/* -----Inicio Responsive------ */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 400px) {
+
+  /* Estilos para el header */
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .mangacomics {
+      font-size: 24px;
+      width: auto;
+      overflow: visible;
+      white-space: nowrap;
+      text-overflow: initial;
+  }
+
+  .menu-hamburguesa {
+      display: flex;
+      list-style: none;
+      justify-content: flex-start;
+      background-color: transparent;
+  }
+
+  .navbar-toggler {
+      padding: 0;
+  }
+
+  .navbar-toggler-icon {
+      font-size: 14px;
+  }
+
+  .navlist {
+      display: none;
+  }
+
+  .menu-hamburguesa a:first-child {
+      font-size: 16px;
+      padding-right: 5px;
+  }
+
+
+}
+
+@media(min-width: 1024px) {
+  #bars {
+      display: none;
+  }
+
+  .header {
+      padding-left: 20px;
+  }
+}
+
+@media(max-width: 400px) {
+  nav {
+      display: none;
+      font-weight: 50px;
+      padding-left: 120px;
+  }
+}
+
+
+

@@ -1,0 +1,408 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(#2b1055, #7597de);
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+header {
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+header .mangacomics {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul i {
+  font-size: 30px;
+  margin: 0 10px;
+  align-self: center;
+  text-decoration: none;
+  color: white;
+}
+header ul a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul a a:hover,
+header ul a a.active {
+  background: #fff;
+  color: #2b1055;
+}
+header ul .navlist a {
+  color: white;
+  margin-left: 60px;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.55s ease;
+  font-family: "Poppins";
+}
+header ul .navlist a .navlist a:hover {
+  border-bottom: 2px solid white;
+}
+
+.biblioteca-productos {
+  font-family: "Poppins";
+  text-decoration: none;
+  color: white;
+}
+
+.flex-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.flex-container .grid-layout {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #2b1055;
+  padding: 20px;
+  border: 1px solid black;
+}
+.flex-container .grid-layout .caja {
+  border: 4px solid black;
+  background-color: lightgray;
+  color: black;
+  font-family: "Poppins";
+  font-weight: bold;
+  width: 190px;
+  height: 310px;
+  text-align: center;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex-container .grid-layout .caja div {
+  margin: 10px;
+}
+.flex-container .grid-layout .caja img {
+  width: 100%;
+  height: 100%;
+}
+
+.populares-productos {
+  font-family: "Poppins";
+  text-decoration: none;
+  color: white;
+}
+
+.container-populares {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.container-populares .grid-popular {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #2b1055;
+  padding: 20px;
+  border: 1px solid black;
+}
+.container-populares .grid-popular .cajaa {
+  border: 4px solid black;
+  background-color: lightgray;
+  color: black;
+  font-family: "Poppins";
+  font-weight: bold;
+  width: 190px;
+  height: 310px;
+  text-align: center;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-populares .grid-popular .cajaa img {
+  width: 100%;
+  height: 100%;
+}
+.container-populares .grid-popular .cajaa div {
+  margin: 10px;
+}
+
+.novedadesTitulo {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.flex-container-noticias div {
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #2b1055;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: white;
+}
+
+.flex-container-noticias {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #2b1055;
+  padding: 10px;
+  border: 1px solid black;
+}
+.flex-container-noticias .ver-mas-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.flex-container-noticias .ver-mas-button:hover {
+  background-color: #0056b3;
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: #2b1055;
+  background: url();
+}
+.loginForm .form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginForm .form-box .inicioSesion {
+  font-size: 2em;
+  font-family: "Poppins";
+  color: #fff;
+  text-align: center;
+}
+.loginForm .form-box .inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+.loginForm .form-box .inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.loginForm .form-box .inputbox input:focus ~ label,
+.loginForm .form-box .inputbox input:valid ~ label {
+  top: -5px;
+}
+.loginForm .form-box input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+.loginForm .form-box ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
+}
+.loginForm .forget {
+  margin: -15px 0 15px;
+  font-size: 0.9em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.loginForm .forget label input {
+  margin-right: 3px;
+}
+.loginForm .forget label a {
+  color: #fff;
+  text-decoration: none;
+}
+.loginForm .forget .forget label a:hover {
+  text-decoration: underline;
+}
+.loginForm button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+.loginForm .register {
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+.loginForm .register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.loginForm .register p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+footer .footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+footer .footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+footer .socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+footer .socials li {
+  margin: 0 10px;
+}
+footer .socials li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .socials li a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+footer .socials a:hover i {
+  color: purple;
+}
+footer footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+footer footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+}
+footer footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animated {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.animate-left {
+  animation: slideInLeft 0.5s forwards;
+}/*# sourceMappingURL=estilo.css.map */

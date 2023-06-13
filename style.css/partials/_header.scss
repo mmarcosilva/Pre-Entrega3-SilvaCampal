@@ -1,0 +1,69 @@
+header {
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+
+    .mangacomics {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            list-style: none;
+            margin-left: 20px;
+        }
+
+        i {
+            font-size: 30px;
+            margin: 0 10px;
+            align-self: center;
+            text-decoration: none;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 6px 15px;
+            color: #fff;
+            border-radius: 20px;
+
+            a:hover,
+            a.active {
+                background: #fff;
+                color: #2b1055;
+            }
+        }
+
+        .navlist a {
+            color: white;
+            margin-left: 60px;
+            font-size: 15px;
+            font-weight: 600;
+            border-bottom: 2px solid transparent;
+            transition: all .55s ease;
+            font-family: "Poppins";
+
+            .navlist a:hover {
+                border-bottom: 2px solid white;
+            }
+        }
+
+    }
+
+}
