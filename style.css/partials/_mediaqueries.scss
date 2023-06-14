@@ -1,0 +1,89 @@
+@media screen and (max-width: $breakpoint-small) {
+    header {
+        padding: 20px;
+    }
+
+    .mangacomics {
+        font-size: 1.5em;
+    }
+
+    ul.navlist li {
+        margin-left: 10px;
+    }
+
+    .navlist a {
+        margin-left: 40px;
+        font-size: 12px;
+    }
+
+    .flex-container .grid-layout {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .caja {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: $breakpoint-medium) {
+    header {
+        padding: 20px;
+    }
+
+    .mangacomics {
+        font-size: 1.8em;
+    }
+
+    ul.navlist li {
+        margin-left: 10px;
+    }
+
+    .navlist a {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .flex-container .grid-layout {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .caja {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: $breakpoint-large) {
+    header {
+        padding: 30px;
+        display:none;
+    }
+
+    .mangacomics {
+        font-size: 2em;
+    }
+
+    .navlist a {
+        margin-left: 60px;
+        font-size: 15px;
+    }
+
+    .flex-container .grid-layout {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .caja {
+        width: 30%;
+        margin: 15px;
+    }
+}
